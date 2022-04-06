@@ -21,20 +21,9 @@ class MainWindow():
         self.ui.StartButton.clicked.connect(self.handleStart)
 
     def handleStart(self):
-        self.ui.MessageShow.append('运行按钮被点击了')
-        testdic = {
-            "program_path": "C:\\MeoAssistantArknights_v3.0.9\\MeoAsstGui.exe",
-            "Operation": "open",
-            "Parameters": "",
-            "Directory": "C:\\MeoAssistantArknights_v3.0.9",
-            "bShow": 1,
-            "operation": [
-                {
-                    "operationimg": "res/img/MAALinkStart.png",
-                    "operationaction": "click"
-                }
-            ]
-        }
+        with open("res\ProgramConfig.json", "r") as json_file:
+            programdata = json.load(json_file)
+        testdic = programdata['Programs']['MAA']  # 做测试的一个程序
         states = startProgramDefault(testdic)  # 判断程序打开
         sleep(2)  # todo 暂时未判断窗口是否显示，拿个延时顶一哈，可能考虑加个死循环，或者找其他方法
         for operation_item in testdic['operation']:  # 执行点击命令
