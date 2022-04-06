@@ -1,0 +1,17 @@
+{
+  "Programs": {
+    "MAA": {
+      "program_path": "C:\\MeoAssistantArknights_v3.0.9\\MeoAsstGui.exe",
+      "Operation": "open",
+      "Parameters": "",
+      "Directory": "C:\\MeoAssistantArknights_v3.0.9",
+      "bShow": 1,
+      "operation": [
+        {
+          "operationimg": "res/img/MAALinkStart.png",
+          "operationaction": "click"
+        }
+      ]
+    }
+  }
+}
