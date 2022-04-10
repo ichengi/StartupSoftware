@@ -6,7 +6,7 @@ from time import sleep
 from PySide2 import QtWidgets
 from PySide2.QtUiTools import QUiLoader
 
-# 通用的打开程序设置
+# 通用的打开程序设置1
 def startProgramDefault(ProgramSettings: dict) -> int:
     if ProgramSettings['Operation'] == 'open' and ProgramSettings['bShow'] == 1:
         # subprocess的cwd参数指改变工作目录
