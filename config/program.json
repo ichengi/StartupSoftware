@@ -1,7 +1,52 @@
 {
     "programs": [
         {
-            "name": "Arknights",
+            "name": "方舟助手",
+            "program_path": "C:\\Arknights\\Arknights.exe",
+            "operation": "open",
+            "parameters": [],
+            "delay": 0,
+            "wait": true,
+            "seconds": 10
+        },
+        {
+            "name": "QQ",
+            "program_path": "C:\\Arknights\\Arknights.exe",
+            "operation": "close",
+            "parameters": [],
+            "delay": 0,
+            "wait": true,
+            "seconds": 10
+        },
+        {
+            "name": "微信",
+            "program_path": "C:\\Arknights\\Arknights.exe",
+            "operation": "close",
+            "parameters": [],
+            "delay": 0,
+            "wait": true,
+            "seconds": 10
+        },
+        {
+            "name": "游戏客户端",
+            "program_path": "C:\\Arknights\\Arknights.exe",
+            "operation": "close",
+            "parameters": [],
+            "delay": 0,
+            "wait": true,
+            "seconds": 10
+        },
+        {
+            "name": "加速器",
+            "program_path": "C:\\Arknights\\Arknights.exe",
+            "operation": "close",
+            "parameters": [],
+            "delay": 0,
+            "wait": true,
+            "seconds": 10
+        },
+        {
+            "name": "谷歌浏览器",
             "program_path": "C:\\Arknights\\Arknights.exe",
             "operation": "open",
             "parameters": [],
@@ -9,7 +54,6 @@
             "wait": true,
             "seconds": 10
         }
-      
     ]
   }
   
