@@ -1,0 +1,15 @@
+{
+    "programs": [
+        {
+            "name": "Arknights",
+            "program_path": "C:\\Arknights\\Arknights.exe",
+            "operation": "open",
+            "parameters": [],
+            "delay": 0,
+            "wait": true,
+            "seconds": 10
+        }
+      
+    ]
+  }
+  
